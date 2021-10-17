@@ -2,7 +2,7 @@
 
 Project Description
 
-For this project, we will use the Java Collections framework to define a custom collection that is a Map. To test it, you will write a word Madlibs-esque word puzzle which relies on your Map structure to function. This game should first be written using the Java HashMap collection, but once your ListMap has been successfully implemented and tested, you will replace every instance of HashMap in your Madlibs game with an instance of your ListMap
+For this project, I will use the Java Collections framework to define a custom collection that is a Map. To test it, I will write a word Madlibs-esque word puzzle which relies on my Map structure to function. This game should first be written using the Java HashMap collection, but once I ListMap has been successfully implemented and tested, I will replace every instance of HashMap in your Madlibs game with an instance of My ListMap
 
 Example Run
 Enter a(n) Adjective: interesting
@@ -73,11 +73,11 @@ MVC
 
 You are required to create the game portion of the project using the MVC architectural pattern. You must have the following 3 classes:
 
-1.聽聽聽聽聽聽聽Madlibs聽鈥� This is the main class. When run, the game will begin,similarly to how a new game of Mastermind was played in the previousproject.
+1.Madlibs This is the main class. When run, the game will begin,similarly to how a new game of Mastermind was played in the previousproject.
 
-2.聽聽聽聽聽聽聽MadlibsController聽鈥� This class contains all of the stringreplacement logic, all methods must be useful to the view, but notactually contain any code that prints to the console.
+2.MadlibsController This class contains all of the stringreplacement logic, all methods must be useful to the view, but notactually contain any code that prints to the console.
 
-3.聽聽聽聽聽聽聽MadlibsModel聽鈥� This class contains all of the data used torepresent the Madlibs game. In specific, you will need to store the Map ofempty spaces (and their according part of speech) to words. 聽
+3.MadlibsModel This class contains all of the data used torepresent the Madlibs game. In specific, you will need to store the Map ofempty spaces (and their according part of speech) to words. 
 
 ListMap
 
